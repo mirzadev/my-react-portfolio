@@ -1,6 +1,6 @@
 {
   "homepage": "https://calcomsci.github.io/react-portfolio/",
-  "name": "example",
+  "name": "my-react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,6 @@
     "react-scroll-up": "^1.3.7",
     "react-scroll-up-button": "^1.5.9",
     "web-vitals": "^1.1.2"
-   
   },
   "scripts": {
     "predeploy": "npm run build",

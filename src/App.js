@@ -1,25 +1,26 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-// import Jumbotron from './components/Jumbotron';
-import Navbar from './components/Navigation';
+import Jumbotron from './components/Jumbotron';
+import Navigation from './components/Navigation';
 import About from './components/About';
-// import Project from './components/Project';
-// import Contact from './components/Contact';
+import Project from './components/Project';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
-// import Resume from './components/Resume';
+import Resume from './components/Resume';
+
 
 
 
 function App() {
       return (
             <BrowserRouter>
-                  <Navbar />
+                  <Navigation />
                   <Switch>
-                        {/* <Route exact path="/PortfolioWithReact/" component={Jumbotron} /> */}
+                        <Route exact path="/PortfolioWithReact/" component={Jumbotron} />
                         <Route exact path="/about" component={About} />
-                        {/* <Route exact path="/project" component={Project} />
+                        <Route exact path="/project" component={Project} />
                         <Route eaxct path="/contact" component={Contact} />
-                        <Route exact path="/resume" component={Resume} /> */}
+                        <Route exact path="/resume" component={Resume} />
                   </Switch>
                   <Footer />
 

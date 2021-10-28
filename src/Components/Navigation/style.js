@@ -8,7 +8,7 @@ export default makeStyles((theme) => ({
             justifyContent: 'flex-start',
             alignItems: 'center',
             padding: '10px 50px',
-            backgroundColor: 'black'
+            backgroundColor: 'navy'
       },
       image: {
             marginLeft: '15px',
@@ -59,4 +59,5 @@ export default makeStyles((theme) => ({
             marginTop: '20px',
             alignSelf: 'center'
       },
+
 }));

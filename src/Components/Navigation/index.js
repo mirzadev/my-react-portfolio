@@ -6,6 +6,9 @@ import MenuIcon from "@material-ui/icons/Menu";
 import Resume from "../Resume/TS Resume 1 Page .docx.pdf";
 import Profile from "../../components/Jumbotron/images/profilepic.jpg";
 import useStyles from './style';
+import './style.css';
+
+
 
 function Navigation(props) {
       const [clicked, setClicked] = useState(false);
@@ -13,33 +16,37 @@ function Navigation(props) {
       const InfoList = [
 
             {
-                  text: 'calcomsci@outlook.com',
+                  text: 'awal.mirza2016@gmail.com',
                   icon: <EmailRounded />,
-                  link: "mailto:calcomsci@outlook.com",
-
-
+                  link: "awal.mirza2016@gmail.com",
             },
             {
                   text: 'GitHub',
                   icon: <GitHub />,
-                  link: "https://github.com/calcomsci",
+                  link: "https://github.com/mirzadev",
             },
             {
                   text: 'LinkedIn',
                   icon: <LinkedIn />,
-                  link: "https://www.linkedin.com/in/hectorperio/",
+                  link: "https://www.linkedin.com/in/mirza-awal-5972511b5/",
+            },
+            {
+                  text: 'Phone',
+                  icon: <Phone />,
+                  link: "9545135171",
             },
 
       ]
       return (
             <div>
                   <AppBar className={classes.appBar} position="static" color="inherit">
+
                         <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" onClick={() => { setClicked(true) }}>
                               <MenuIcon />
                         </IconButton>
                         <div className={classes.brandContainer}>
                               <Button component={Link} to="/ProjectWithReact">
-                                    <a className="navbar-brand text-warning" href="/">Welcome to the Portfolio of Mirza Awal!</a>
+                                    <a className="navbar-brand" id="brandName" href="/">Mirza Abdul Awal - Full Stack Developer</a>
                               </Button>
                         </div>
                         <div>
@@ -54,6 +61,9 @@ function Navigation(props) {
                                     </Typography>
                                     <Typography className={classes.heading} align="left">
                                           <Button className={classes.button} component={Link} to="/contact">Contact</Button>
+                                    </Typography>
+                                    <Typography className={classes.heading} align="left">
+                                          <Button className={classes.button} component={Link} to="/resume">Resume</Button>
                                     </Typography>
                               </div>
                         </Toolbar>
@@ -97,6 +107,7 @@ function Navigation(props) {
                                     <ListItem button key="Home">
                                           <ListItemIcon>
                                                 <Home />
+
                                           </ListItemIcon>
                                           <ListItemText primary="Home" />
                                     </ListItem>

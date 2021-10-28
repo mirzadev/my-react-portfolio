@@ -19,7 +19,7 @@ function About() {
                                     <hr></hr>
                                     <div className="col-sm-12">
                                           {/* <a href={Resume} target="blank" className="btn btn-outline-dark about-btn" role="button"><i className="fas fa-user-circle"></i> Resume</a> */}
-                                          <a href="https://github.com/calcomsci" className="btn btn-dark about-btn btn-outline-light" target="blank" role="button"><i className="fab fa-github"></i> Github</a>
+                                          <a href="https://github.com/mirzadev" className="btn btn-dark about-btn btn-outline-light" target="blank" role="button"><i className="fab fa-github"></i> Github</a>
                                     </div>
                               </div>
                         </div>

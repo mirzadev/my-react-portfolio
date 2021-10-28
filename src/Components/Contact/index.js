@@ -10,7 +10,7 @@ function Contact() {
                                     <hr></hr>
                                     <div className="row">
                                           <div className="btn btn-primary">
-                                                <a className="text-decoration-none text-white" href="https://www.linkedin.com/in/mirzaawal/" target="blank"><i
+                                                <a className="text-decoration-none text-white" href="https://www.linkedin.com/in/mirza-awal-5972511b5/" target="blank"><i
                                                       className="fab fa-linkedin-in fa-4x"></i>
                                                       <p className="text-center">Linkedin</p>
                                                 </a>

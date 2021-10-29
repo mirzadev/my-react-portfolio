@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SwipeableDrawer, Toolbar, AppBar, Typography, Button, IconButton, Avatar, ListItem, ListItemIcon, ListItemText, List, Divider, } from '@material-ui/core';
-import { GetAppRounded, EmailRounded, GitHub, LinkedIn, Phone, Home, InfoRounded, ContactMailRounded, DescriptionRounded } from '@material-ui/icons/';
+import { GetAppRounded, EmailRounded, GitHub, LinkedIn, Phone, Home, InfoRounded, ContactMailRounded } from '@material-ui/icons/';
 import MenuIcon from "@material-ui/icons/Menu";
 import Resume from "./Resume.pdf"
 import Profile from "../../components/Jumbotron/images/profilepic.jpg";
+//import coverImage from "./images/cover-image.png";
 import useStyles from './style';
 import './style.css';
 
@@ -37,8 +38,13 @@ function Navigation(props) {
             },
 
       ]
+
+
+
       return (
             <div>
+
+
                   <AppBar className={classes.appBar} position="static" color="inherit">
 
                         <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" onClick={() => { setClicked(true) }}>
@@ -46,24 +52,26 @@ function Navigation(props) {
                         </IconButton>
                         <div className={classes.brandContainer}>
                               <Button component={Link} to="/ProjectWithReact">
-                                    <a className="navbar-brand" id="brandName" href="/">Mirza Abdul Awal - Full Stack Developer</a>
+                                    <a className="navbar-brand" id="brandName" href="/">
+                                          <img id="my-picture" src={Profile} alt="" height="75" width="75"></img >Mirza Abdul Awal - Full Stack Developer</a>
+
                               </Button>
                         </div>
                         <div>
                         </div>
-                        <Toolbar className={classes.toolbar}>
+                        <Toolbar className={classes.toolbar} >
                               <div className={classes.profile}>
                                     <Typography className={classes.heading} align="left">
-                                          <Button className={classes.button} component={Link} to="/about">About</Button>
+                                          <Button className={classes.button} id="component-item" component={Link} to="/about">About</Button>
                                     </Typography>
                                     <Typography className={classes.heading} align="left">
-                                          <Button className={classes.button} component={Link} to="/project">Project</Button>
+                                          <Button className={classes.button} id="component-item" component={Link} to="/project">Project</Button>
                                     </Typography>
                                     <Typography className={classes.heading} align="left">
-                                          <Button className={classes.button} component={Link} to="/contact">Contact</Button>
+                                          <Button className={classes.button} id="component-item" component={Link} to="/contact">Contact</Button>
                                     </Typography>
                                     <Typography className={classes.heading} align="left">
-                                          <Button className={classes.button} href={Resume}>Resume</Button>
+                                          <Button className={classes.button} id="component-item" href={Resume}>Resume</Button>
                                     </Typography>
                               </div>
                         </Toolbar>
@@ -145,8 +153,15 @@ function Navigation(props) {
                               </a>
                         </List>
                   </SwipeableDrawer>
+                  {/* <div className="my-5" >
+
+                        <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+                  </div > */}
+
             </div>
+
       )
+
 }
 
 export default Navigation;

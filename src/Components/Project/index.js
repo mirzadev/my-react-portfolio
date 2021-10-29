@@ -4,11 +4,11 @@ import MusicWorld from './images/Project-2-Music-World-Ecommerce.png';
 import SocialNetwork from './images/Social-Network-API.JPG';
 import EmpTracker from './images/Employee-Tracker.JPG';
 import BudTracker from './images/Budget-Tracker.JPG';
-// import NoteTaker from './images/Note-Taker.JPG';
-// import TeamGen from './images/Team-Generator.JPG';
-// import PasswordGen from './images/Password-Generator.JPG';
-// import WeatherApp from './images/Weather-Application-Dashboard.JPG';
-// import ReadmeGen from './images/Professional-Readme-Generator.JPG';
+import NoteTaker from './images/Note-Taker.JPG';
+import TeamGen from './images/Team-Generator.JPG';
+import PasswordGen from './images/Password-Generator.JPG';
+import WeatherApp from './images/Weather-Application-Dashboard.JPG';
+import ReadmeGen from './images/Professional-Readme-Generator.JPG';
 
 import './style.css';
 
@@ -75,42 +75,66 @@ function Project() {
                                           </div>
                                     </div>
                               </div>
-                              {/*<div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
+                              <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
                                     <div className="card">
-                                          <img src={jsquiz} className="card-img-top" alt="javascript-quiz" />
+                                          <img src={NoteTaker} className="card-img-top" alt="NoteTaker" />
                                           <div className="card-body">
-                                                <h5 className="card-title">JavaScript Quiz</h5>
-                                                <p className="card-text">Do you want to test your knowledge in JavaScript? You can take this quiz and find out how much you know about JavaScript!</p>
-                                                <a href="https://calcomsci.github.io/javascript-quiz-challenge/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
-                                                <a href="https://github.com/calcomsci/javascript-quiz-challenge" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
+                                                <h5 className="card-title">Note Taker</h5>
+                                                <p className="card-text">"My Note Taker" is aimed to help those professionals to keep a note of their tasks. Using this note one should be able to first write the main task as heading and then description of their task. After writing, the application will give an option to save the noted task. Once the task is completed, the professional should be able to delete the task from the note.</p>
+                                                <a href="https://note-taker-mirza.herokuapp.com/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Click for Deployed Web Page</a>
+                                                <a href="https://github.com/mirzadev/My-Note-Taker" target="blank" className="ms-5 btn btn-light btn-outline-dark">Click for Github Code</a>
                                           </div>
                                     </div>
                               </div>
                               <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
                                     <div className="card">
-                                          <img src={Password} className="card-img-top" alt="password-generator" />
+                                          <img src={TeamGen} className="card-img-top" alt="TeamGen" />
+                                          <div className="card-body">
+                                                <h5 className="card-title">Team Profile Generator</h5>
+                                                <p className="card-text">Team Profile Generator is an application that allows the management to keep track of their team members and their occupation details. The system will prompt for the input at the begining and at the end will serve with the details of each employee as summery.</p>
+                                                <a href="https://drive.google.com/file/d/1KFIhgu2eUJxbEVssg5S1yPbxP7SwgJVb/view" target="blank" className="ms-5 btn btn-dark btn-outline-light">Click for Walkthrough VDO</a>
+                                                <a href="https://github.com/mirzadev/Team-Profile-Generator" target="blank" className="ms-5 btn btn-light btn-outline-dark">Click for Github Code</a>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
+                                    <div className="card">
+                                          <img src={PasswordGen} className="card-img-top" alt="PasswordGen" />
                                           <div className="card-body">
                                                 <h5 className="card-title">Password Generator</h5>
-                                                <p className="card-text">The Password Generator is a web app that helps you create a secure password, up to 64 characters!</p>
-                                                <a href="https://calcomsci.github.io/pass-generator.github.io/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
-                                                <a href="https://github.com/calcomsci/pass-generator.github.io" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
+                                                <p className="card-text">This application will generate password as per the user's requirement. The system will prompt the number of characters and requirements with windows prompt and generate the required password at the end.</p>
+                                                <a href="https://github.com/mirzadev/Challenge-3-Password-Generator" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
+                                                <a href="https://github.com/mirzadev/Challenge-3-Password-Generator" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
                                           </div>
                                     </div>
                               </div>
                               <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
                                     <div className="card">
-                                          <img src={schedule} className="card-img-top" alt="work day scheduler" />
+                                          <img src={WeatherApp} className="card-img-top" alt="work day scheduler" />
                                           <div className="card-body">
-                                                <h5 className="card-title">Work Day Scheduler</h5>
-                                                <p className="card-text">This is a web page I created to plan a work day from 9am to 5pm.  </p>
-                                                <a href="https://calcomsci.github.io/work_scheduler/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
-                                                <a href="https://github.com/calcomsci/work_scheduler" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
+                                                <h5 className="card-title">Weather Application Dashboard</h5>
+                                                <p className="card-text">This application was aimed to allow the user to view the weather condition of his/her selected area. It also says the weather forcast for next seven days.</p>
+                                                <a href="https://github.com/mirzadev/Weather-Application-Dashboard" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
+                                                <a href="https://github.com/mirzadev/Weather-Application-Dashboard" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
                                           </div>
                                     </div>
-                              </div> */}
+                              </div>
+                              <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
+                                    <div className="card">
+                                          <img src={ReadmeGen} className="card-img-top" alt="work day scheduler" />
+                                          <div className="card-body">
+                                                <h5 className="card-title">Professional README Generator</h5>
+                                                <p className="card-text">Professional README Generator will allow a developer to explain about his/her application working process. All related guidelines for running the application is described here.</p>
+                                                <a href="https://github.com/mirzadev/Weather-Application-Dashboard" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
+                                                <a href="https://github.com/mirzadev/Weather-Application-Dashboard" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
+                                          </div>
+                                    </div>
+                              </div>
 
                         </div>
+
                   </div>
+
             </section>
       )
 }

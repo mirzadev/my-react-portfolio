@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+//import { Linking } from 'react-native'
 function Contact() {
       return (
             <section className="bg-light about-page" id="contact">
@@ -21,7 +22,7 @@ function Contact() {
                                                 </a>
                                           </div>
                                           <div className="btn btn-success btn-lg">
-                                                <a className="text-decoration-none text-white" href="1800234965"><i className="fas fa-tty fa-4x"></i>
+                                                <a className="text-decoration-none text-white" href="tel: 1800234965"><i className="fas fa-tty fa-4x"></i>
                                                       <p className="text-center">Phone</p>
                                                 </a>
                                           </div>

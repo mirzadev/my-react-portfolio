@@ -1,114 +1,118 @@
-// import React from 'react';
-// import music from './images/music-clip.png';
-// import SEO from './images/fixed-seo-page.png';
-// import TCA from './images/team-generator.png';
-// import RMG from './images/readme-generator.png';
-// import Dashboard from './images/dashboard.png';
-// import jsquiz from './images/javascript-quiz.png';
-// import Password from './images/password-generator.png';
-// import schedule from './images/work-day-scheduler.png';
+import React from 'react';
+import CuckoosLibrary from './images/Project-1-Cuckoos-Library.JPG';
+import MusicWorld from './images/Project-2-Music-World-Ecommerce.png';
+import SocialNetwork from './images/Social-Network-API.JPG';
+import EmpTracker from './images/Employee-Tracker.JPG';
+import BudTracker from './images/Budget-Tracker.JPG';
+// import NoteTaker from './images/Note-Taker.JPG';
+// import TeamGen from './images/Team-Generator.JPG';
+// import PasswordGen from './images/Password-Generator.JPG';
+// import WeatherApp from './images/Weather-Application-Dashboard.JPG';
+// import ReadmeGen from './images/Professional-Readme-Generator.JPG';
 
-// import './style.css';
+import './style.css';
 
-// function Portfolio() {
-//       return (
-//             <section id="portfolio">
-//                   <div className="container">
-//                         <div className="row justify-content-center">
-//                               <h2 className="text-center mt-5 portfolio">Portfolio</h2>
-//                               <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
-//                                     <div className="card">
-//                                           <img src={music} className="card-img-top" alt="music" />
-//                                           <div className="card-body">
-//                                                 <h5 className="card-title">Music Clip</h5>
-//                                                 <p className="card-text">Music Clip is a live web page that helps you find information about music artists, listen to their songs, look at their published works, and their biographies.</p>
-//                                                 <a href="https://calcomsci.github.io/Clone-Music-Clip/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
-//                                                 <a href="https://github.com/calcomsci/Clone-Music-Clip" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
-//                                           </div>
-//                                     </div>
-//                               </div>
-//                               <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
-//                                     <div className="card">
-//                                           <img src={SEO} className="card-img-top" alt="fix-seo" />
-//                                           <div className="card-body">
-//                                                 <h5 className="card-title">Fixed SEO Web page</h5>
-//                                                 <p className="card-text">Every front end software developer should know how to fix links, typos, optimize web pages, and other things in HTML! This is a demo of a fixed HTML page.</p>
-//                                                 <a href="https://github.com/calcomsci/fixed-seo-page-repo" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
-//                                                 <a href="https://github.com/calcomsci/fixed-seo-page-repo" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
-//                                           </div>
-//                                     </div>
-//                               </div>
-//                               <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
-//                                     <div className="card">
-//                                           <img src={TCA} className="card-img-top" alt="TeamContactGenerator" />
-//                                           <div className="card-body">
-//                                                 <h5 className="card-title">Team Contact Generator</h5>
-//                                                 <p className="card-text">Team Contact Generator is an Inquirer and Node.js app that curates a contact list for your team. You can add engineers, interns, and managers' contacts. This requires Visual Studio Code, and Node.js installed to run.</p>
-//                                                 <a href="https://github.com/calcomsci/Team-Contact-Generator" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
-//                                                 <a href="https://github.com/calcomsci/Team-Contact-Generator" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
-//                                           </div>
-//                                     </div>
-//                               </div>
-//                               <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
-//                                     <div className="card">
-//                                           <img src={RMG} className="card-img-top" alt="rmg" />
-//                                           <div className="card-body">
-//                                                 <h5 className="card-title">README Generator</h5>
-//                                                 <p className="card-text">README Generator is a web app that creates a README Generator for you. Every great Github repository demands a README file! You should install Visual Studio Code and node.js for this app.</p>
-//                                                 <a href="https://github.com/calcomsci/README-generator" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
-//                                                 <a href="https://github.com/calcomsci/README-generator" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
-//                                           </div>
-//                                     </div>
-//                               </div>
-//                               <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
-//                                     <div className="card">
-//                                           <img src={Dashboard} className="card-img-top" alt="weather" />
-//                                           <div className="card-body">
-//                                                 <h5 className="card-title">Weather Dashboard</h5>
-//                                                 <p className="card-text">Weather Dashboard is a live web page that finds the weather in cities.</p>
-//                                                 <a href="https://calcomsci.github.io/Weather-Dashboard/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
-//                                                 <a href="https://github.com/calcomsci/Weather-Dashboard" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
-//                                           </div>
-//                                     </div>
-//                               </div>
-//                               <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
-//                                     <div className="card">
-//                                           <img src={jsquiz} className="card-img-top" alt="javascript-quiz" />
-//                                           <div className="card-body">
-//                                                 <h5 className="card-title">JavaScript Quiz</h5>
-//                                                 <p className="card-text">Do you want to test your knowledge in JavaScript? You can take this quiz and find out how much you know about JavaScript!</p>
-//                                                 <a href="https://calcomsci.github.io/javascript-quiz-challenge/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
-//                                                 <a href="https://github.com/calcomsci/javascript-quiz-challenge" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
-//                                           </div>
-//                                     </div>
-//                               </div>
-//                               <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
-//                                     <div className="card">
-//                                           <img src={Password} className="card-img-top" alt="password-generator" />
-//                                           <div className="card-body">
-//                                                 <h5 className="card-title">Password Generator</h5>
-//                                                 <p className="card-text">The Password Generator is a web app that helps you create a secure password, up to 64 characters!</p>
-//                                                 <a href="https://calcomsci.github.io/pass-generator.github.io/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
-//                                                 <a href="https://github.com/calcomsci/pass-generator.github.io" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
-//                                           </div>
-//                                     </div>
-//                               </div>
-//                               <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
-//                                     <div className="card">
-//                                           <img src={schedule} className="card-img-top" alt="work day scheduler" />
-//                                           <div className="card-body">
-//                                                 <h5 className="card-title">Work Day Scheduler</h5>
-//                                                 <p className="card-text">This is a web page I created to plan a work day from 9am to 5pm.  </p>
-//                                                 <a href="https://calcomsci.github.io/work_scheduler/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
-//                                                 <a href="https://github.com/calcomsci/work_scheduler" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
-//                                           </div>
-//                                     </div>
-//                               </div>
 
-//                         </div>
-//                   </div>
-//             </section>
-//       )
-// }
+function Project() {
+      return (
+            <section id="project">
+                  <div className="container">
+                        <div className="row justify-content-center">
+                              <h2 className="text-center mt-5 project">MY ALL PROJECTS</h2>
+                              <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
+                                    <div className="card">
+                                          <img src={CuckoosLibrary} className="card-img-top" alt="CuckoosLibrary" />
+                                          <div className="card-body">
+                                                <h5 className="card-title">Library Application (Project-1)</h5>
+                                                <p className="card-text">Cuckoo's Library is an online library that helps an individual to find, save and read books to enrich own knowledge without physically visiting a library. The user of this application will be able to find books using author's name, book title or genre.</p>
+                                                <a href="https://cuckoos-library.netlify.app/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Click for Deployed Web Page</a>
+                                                <a href="https://github.com/mirzadev/project-cuckoos-library" target="blank" className="ms-5 btn btn-light btn-outline-dark">Click for Github Code</a>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
+                                    <div className="card">
+                                          <img src={MusicWorld} className="card-img-top" alt="MusicWorld" />
+                                          <div className="card-body">
+                                                <h5 className="card-title">Music World E-Commerce (Project-2)</h5>
+                                                <p className="card-text">Music World E-Commerce is an online musical instrument shopping store that allows an user to find, compare the prices and purchase without visiting the store physically. There six categories of musical instruments.</p>
+                                                <a href="https://music-world-e-commerce.herokuapp.com/homepage" target="blank" className="ms-5 btn btn-dark btn-outline-light">Click for Deployed Web Page</a>
+                                                <a href="https://github.com/mirzadev/music-world-ecommerce" target="blank" className="ms-5 btn btn-light btn-outline-dark">Click for Github Code</a>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
+                                    <div className="card">
+                                          <img src={SocialNetwork} className="card-img-top" alt="SocialNetwork" />
+                                          <div className="card-body">
+                                                <h5 className="card-title">Social Network API</h5>
+                                                <p className="card-text">Social Media Network is network that allows to create friend, share comments and opinions on that. Using this application one user can create own friends or delete own friends including their opinions and comments.</p>
+                                                <a href="https://watch.screencastify.com/v/NooD095Eh21cms12nMIt" target="blank" className="ms-5 btn btn-dark btn-outline-light">Frontend App</a>
+                                                <a href="https://www.youtube.com/watch?v=gDaMHFvF6Xs" target="blank" className="ms-5 btn btn-light btn-outline-dark">Backend API</a>
+                                                <a href="https://github.com/calcomsci/Team-Contact-Generator" target="blank" className="ms-5 btn btn-light btn-outline-dark">Github Code</a>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
+                                    <div className="card">
+                                          <img src={EmpTracker} className="card-img-top" alt="EmpTracker" />
+                                          <div className="card-body">
+                                                <h5 className="card-title">Employee Tracker</h5>
+                                                <p className="card-text">My-Employee-Tracker is an application that helps the management to view all departments, roles, vemployees or add a department, role, employee, and also update an employee role. This application is created using the mysql database which is connected with the application through node.js.</p>
+                                                <a href="https://www.youtube.com/watch?v=jaZq0-eY0DU" target="blank" className="ms-5 btn btn-dark btn-outline-light">Click for Walkthrough VDO</a>
+                                                <a href="https://github.com/mirzadev/My-Employee-Tracker" target="blank" className="ms-5 btn btn-light btn-outline-dark">Click for Github Code</a>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
+                                    <div className="card">
+                                          <img src={BudTracker} className="card-img-top" alt="BudTracker" />
+                                          <div className="card-body">
+                                                <h5 className="card-title">Budget Tracker PWA</h5>
+                                                <p className="card-text">Budget Teacker is Progressive Web Application which is intended to work on any platform that uses a standards-compliant browser, including both desktop and mobile devices.It resemble native mobile apps and allow users to interact with the application even when there is no internet connection or cell service.</p>
+                                                <a href="https://budget-tracker-pwa-mirza.herokuapp.com/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Click for Deployed Web Page</a>
+                                                <a href="https://github.com/mirzadev/budget-tracker-pwa" target="blank" className="ms-5 btn btn-light btn-outline-dark">Click for Github Code</a>
+                                          </div>
+                                    </div>
+                              </div>
+                              {/*<div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
+                                    <div className="card">
+                                          <img src={jsquiz} className="card-img-top" alt="javascript-quiz" />
+                                          <div className="card-body">
+                                                <h5 className="card-title">JavaScript Quiz</h5>
+                                                <p className="card-text">Do you want to test your knowledge in JavaScript? You can take this quiz and find out how much you know about JavaScript!</p>
+                                                <a href="https://calcomsci.github.io/javascript-quiz-challenge/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
+                                                <a href="https://github.com/calcomsci/javascript-quiz-challenge" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
+                                    <div className="card">
+                                          <img src={Password} className="card-img-top" alt="password-generator" />
+                                          <div className="card-body">
+                                                <h5 className="card-title">Password Generator</h5>
+                                                <p className="card-text">The Password Generator is a web app that helps you create a secure password, up to 64 characters!</p>
+                                                <a href="https://calcomsci.github.io/pass-generator.github.io/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
+                                                <a href="https://github.com/calcomsci/pass-generator.github.io" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
+                                    <div className="card">
+                                          <img src={schedule} className="card-img-top" alt="work day scheduler" />
+                                          <div className="card-body">
+                                                <h5 className="card-title">Work Day Scheduler</h5>
+                                                <p className="card-text">This is a web page I created to plan a work day from 9am to 5pm.  </p>
+                                                <a href="https://calcomsci.github.io/work_scheduler/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
+                                                <a href="https://github.com/calcomsci/work_scheduler" target="blank" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
+                                          </div>
+                                    </div>
+                              </div> */}
 
-// export default Portfolio;
+                        </div>
+                  </div>
+            </section>
+      )
+}
+
+export default Project;

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { SwipeableDrawer, Toolbar, AppBar, Typography, Button, IconButton, Avatar, ListItem, ListItemIcon, ListItemText, List, Divider, } from '@material-ui/core';
 import { GetAppRounded, EmailRounded, GitHub, LinkedIn, Phone, Home, InfoRounded, ContactMailRounded, DescriptionRounded } from '@material-ui/icons/';
 import MenuIcon from "@material-ui/icons/Menu";
-import Resume from "../Resume/TS Resume 1 Page .docx.pdf";
+import Resume from "./Resume.pdf"
 import Profile from "../../components/Jumbotron/images/profilepic.jpg";
 import useStyles from './style';
 import './style.css';
@@ -63,7 +63,7 @@ function Navigation(props) {
                                           <Button className={classes.button} component={Link} to="/contact">Contact</Button>
                                     </Typography>
                                     <Typography className={classes.heading} align="left">
-                                          <Button className={classes.button} component={Link} to="/resume">Resume</Button>
+                                          <Button className={classes.button} href={Resume}>Resume</Button>
                                     </Typography>
                               </div>
                         </Toolbar>
@@ -98,7 +98,7 @@ function Navigation(props) {
                                     <ListItemIcon>
                                           <Phone />
                                     </ListItemIcon>
-                                    <ListItemText primary="(925)250-3000" />
+                                    <ListItemText primary="(954)555-6666" />
                               </ListItem>
                         </List>
                         <Divider />

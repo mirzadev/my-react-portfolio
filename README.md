@@ -37,9 +37,7 @@
 ![Edit Post](./images/Gif-Walkthrough.gif)
 
 ## Overview Links
-- [Application launched in Heroku](https://mvc-tech-blog-mirza.herokuapp.com/)
-- [Application walkthrough](https://watch.screencastify.com/v/2QEBBA4t3pdaTCmffCxj)
-- [GitHub Repository](https://mirzadev.github.io/MVC-TECH-BLOG/)
+- 
 
 
 ## User Story

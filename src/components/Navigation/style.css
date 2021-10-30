@@ -1,0 +1,22 @@
+#brandName {
+      font-weight: bold;
+      font-family: arial black;
+      font-size: 1.8rem;
+      color: white     
+}
+#my-picture{
+      border-radius: 50%;
+      margin-right: 30px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+     
+}
+#component-item{
+      font-family: sans-serif;
+      font-weight: bold;
+      color: white;
+      font-size: 17px;
+      
+}
+
+

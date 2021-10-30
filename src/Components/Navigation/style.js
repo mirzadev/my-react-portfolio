@@ -1,6 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles';
 import { deepPurple } from '@material-ui/core/colors';
 
+
 export default makeStyles((theme) => ({
       appBar: {
             display: 'flex',
@@ -8,7 +9,8 @@ export default makeStyles((theme) => ({
             justifyContent: 'flex-start',
             alignItems: 'center',
             padding: '10px 50px',
-            backgroundColor: 'navy'
+            backgroundColor: 'teal',
+
       },
       image: {
             marginLeft: '15px',

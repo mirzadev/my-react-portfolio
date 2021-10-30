@@ -20,30 +20,25 @@
 
 
 ## App Screenshots
-- Picture of the Home Page of the Application.
-![Home page of the application](./images/Home-Page-Top.JPG)
+- Picture of the About Me Component of the Application.
+![About Me](./images/About-Me-Component.JPG)
 
-- Picture of the Dashboard
-![Picture of dashboard](./images/Dashboard.JPG)
+- Picture of the Contact Component
+![Picture of Contact Component](./images/Contact-Component.JPG)
 
-- To login to Application
+- Picture of the Home Page with Humbergar Navbar
 
-![Login functionality](./images/Login-Page.JPG)
+![Login functionality](./images/Hamburger-Navbar.JPG)
 
 - Register Option of the Application.
-![Register option](./images/Register-Option.JPG)
+![Register option](./images/Project-Component.JPG)
 
-- Edit a Post
-![Edit Post](./images/Edit-Post.JPG)
-
-- Create a Post
-
-![Create post](./images/Create-Post.JPG)
-
+- Overview with Gif
+![Edit Post](./images/Gif-Walkthrough.gif)
 
 ## Overview Links
 - [Application launched in Heroku](https://mvc-tech-blog-mirza.herokuapp.com/)
-- [Application walkthrough](https://drive.google.com/file/d/1zgAiklLX9NFXMJyUUnUuYKepSbjlHH2n/view)
+- [Application walkthrough](https://watch.screencastify.com/v/2QEBBA4t3pdaTCmffCxj)
 - [GitHub Repository](https://mirzadev.github.io/MVC-TECH-BLOG/)
 
 
@@ -89,21 +84,15 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 💾     
 - npm install 
 - npm install express
-- npm install express-handlebars
-- npm install --save mysql2
-- npm install sequelize
-- npm install dotenv
-- npm install bcrypt
-- npm install express-session
-- npm install connect-session-sequelize
+- 
 
+## Tools
+- React
 
 ## Usage
 💻   
   
 Run the following command at the terminal:
-
-`npm run seeds`
   
 `npm start`
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-//import coverImage from "./images/cover-image.png";
+import coverImage from "./images/cover-image.png";
 
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
                   <div className="container">
                         <div className="row justify-content-center">
                               <div className="col-lg-9 text-center">
-                                    {/*<img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />*/}
+                                    <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
                                     <h2 className="text-center mt-0 about">About Me</h2>
                                     <hr className="divider my-4" color="#408eff" />
                                     <p className="text-muted mb-0">Mirza Abdul Awal - A full Stack Web Developer with a strong background in complete software development process. I have equal expertise in front end and as well as backend. My main language of work is JavaScript. Before becoming a full stack developer, I have the experience of working as Quality Assurance Analyst with the adequate skill on automation and API testing covering noth web and mobile applications</p>

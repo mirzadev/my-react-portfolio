@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-//import Jumbotron from './components/Jumbotron';
 import Navigation from './components/Navigation';
 import About from './components/About';
 import Project from './components/Project';
@@ -16,7 +15,7 @@ function App() {
             <BrowserRouter>
                   <Navigation />
                   <Switch>
-                        {/* <Route exact path="/PortfolioWithReact/" component={Jumbotron} /> */}
+
                         <Route exact path="/about" component={About} />
                         <Route exact path="/project" component={Project} />
                         <Route eaxct path="/contact" component={Contact} />

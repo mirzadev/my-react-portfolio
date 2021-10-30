@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { SwipeableDrawer, Toolbar, AppBar, Typography, Button, IconButton, Avatar, ListItem, ListItemIcon, ListItemText, List, Divider, } from '@material-ui/core';
+import { SwipeableDrawer, Toolbar, AppBar, Typography, Button, IconButton, ListItem, ListItemIcon, ListItemText, List, Divider, } from '@material-ui/core';
 import { GetAppRounded, EmailRounded, GitHub, LinkedIn, Phone, Home, InfoRounded, ContactMailRounded } from '@material-ui/icons/';
 import MenuIcon from "@material-ui/icons/Menu";
 import Resume from "./Resume.pdf"
-import Profile from "../../components/Jumbotron/images/profilepic.jpg";
+//import Profile from "../../components/Jumbotron/images/profilepic.jpg";
 //import coverImage from "./images/cover-image.png";
 import useStyles from './style';
 import './style.css';
+import Profile from './images/profilepic.jpg';
 
 
 
@@ -82,14 +83,14 @@ function Navigation(props) {
                         onClose={() => { setClicked(false) }}
                         onOpen={() => { }}
                         className={classes.drawer}>
-                        <a href="/ProjectWithReact"
+                        {/* <a href="/ProjectWithReact"
                               className={classes.roundedPic}>
                               <Avatar
                                     alt="Profile pic"
                                     src={Profile}
                                     className={classes.roundedPic}
                                     id="avatar" />
-                        </a>
+                        </a> */}
                         <List>
                               {InfoList.map((item, index) => {
                                     const { text, icon, onClick, link } = item;

@@ -37,8 +37,7 @@
 ![Edit Post](./images/Gif-Walkthrough.gif)
 
 ## Overview Links
-- [Application walkthrough](https://watch.screencastify.com/v/Bw1gMqGnzWJTCQTXVW0E)
-- [GitHub Repository](https://github.com/mirzadev/music-world-ecommerce)
+
 
 
 ## User Story

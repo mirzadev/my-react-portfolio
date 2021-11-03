@@ -24,7 +24,7 @@
 ![About Me](./images/About-Me-Component.JPG)
 
 - Picture of the Contact Component
-![Picture of Contact Component](./images/Contact-Component.JPG)
+![Picture of Contact Component](./images/Contact-Compoment.JPG)
 
 - Picture of the Home Page with Humbergar Navbar
 
@@ -93,11 +93,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 Run the following command at the terminal:
   
 `npm start`
-
-
-## Contributing
-:My Github Link: [Mirza Awal](https://github.com/mirzadev)
-
 
 ## Questions
 ✉️ Contact me with any questions: [email](mailto:awal.mirza2016@gmail.com) , [LinkedIn](https://www.linkedin.com/in/mirza-awal-5972511b5/)<br />

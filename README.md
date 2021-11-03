@@ -82,7 +82,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 💾     
 - npm install 
 - npm install express
-- 
+- npm install apollo-boost
 
 ## Tools
 - React

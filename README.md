@@ -33,9 +33,6 @@
 - Register Option of the Application.
 ![Register option](./images/Project-Component.JPG)
 
-- Overview with Gif
-![Edit Post](./images/Gif-Walkthrough.gif)
-
 ## Overview Links
 
 

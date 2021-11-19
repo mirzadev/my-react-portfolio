@@ -9,6 +9,7 @@ import TeamGen from './images/Team-Generator.JPG';
 import PasswordGen from './images/Password-Generator.JPG';
 import WeatherApp from './images/Weather-Application-Dashboard.JPG';
 import ReadmeGen from './images/Professional-Readme-Generator.JPG';
+import JLMTourism from './images/Project-3-JLM-Tourism.JPG';
 
 import './style.css';
 
@@ -39,6 +40,19 @@ function Project() {
                                                 <a href="https://music-world-e-commerce.herokuapp.com/homepage" target="blank" className="ms-5 btn btn-dark btn-outline-light">Click for Deployed Web Page</a>
                                                 <a href="https://github.com/mirzadev/music-world-ecommerce" target="blank" className="ms-5 btn btn-light btn-outline-dark">Click for Github Code</a>
                                           </div>
+
+                                    </div>
+                              </div>
+                              <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
+                                    <div className="card">
+                                          <img src={JLMTourism} className="card-img-top" alt="JLMTourism" />
+                                          <div className="card-body">
+                                                <h5 className="card-title">JLM Tourism (Project-3)</h5>
+                                                <p className="card-text">JLM Tourism is an application that is build using MERN, Redux and PWA technology. It helps the users to buy tour plan for vacation</p>
+                                                <a href="https://jlm-tourism.herokuapp.com/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Click for Deployed Web Page</a>
+                                                <a href="https://mirzadev.github.io/jlm-tourism/" target="blank" className="ms-5 btn btn-light btn-outline-dark">Click for Github Code</a>
+                                          </div>
+
                                     </div>
                               </div>
                               <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
@@ -114,7 +128,7 @@ function Project() {
                                           <div className="card-body">
                                                 <h5 className="card-title">Weather Application Dashboard</h5>
                                                 <p className="card-text">This application was aimed to allow the user to view the weather condition of his/her selected area. It also says the weather forcast for next seven days.</p>
-                                                <a href="https://github.com/mirzadev/Weather-Application-Dashboard" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
+                                                <a href="https://thirsty-williams-15b73e.netlify.app/" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
                                                 <a href="https://github.com/mirzadev/Weather-Application-Dashboard" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
                                           </div>
                                     </div>
@@ -128,6 +142,7 @@ function Project() {
                                                 <a href="https://github.com/mirzadev/Weather-Application-Dashboard" target="blank" className="ms-5 btn btn-dark btn-outline-light">Check Out the Web Page</a>
                                                 <a href="https://github.com/mirzadev/Weather-Application-Dashboard" className="ms-5 btn btn-light btn-outline-dark">Check Out the Github Code</a>
                                           </div>
+
                                     </div>
                               </div>
 

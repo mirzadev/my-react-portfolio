@@ -34,7 +34,7 @@
 ![Register option](./images/Project-Component.JPG)
 
 ## Overview Links
-- [Application Deployed in Netlify](https://61834d265badad31016aea99--xenodochial-roentgen-4f349d.netlify.app/)
+- [Application Deployed in Netlify](https://epic-goodall-ed7a83.netlify.app/)
 - [Application walkthrough](https://watch.screencastify.com/v/Bw1gMqGnzWJTCQTXVW0E)
 - [Application in github](https://mirzadev.github.io/my-react-portfolio/)
 

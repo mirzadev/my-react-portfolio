@@ -1,6 +1,13 @@
 .project {
-      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
-      Helvetica, Arial, "Lucida Grande", sans-serif;
-      font-weight: 900;
-    }
-    
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 900;
+}
+#project-container{
+  margin-bottom: 30px;
+}
+#project-head{
+  color: navy;
+  font-size: 40px;
+  font-weight: 1000;
+}   

@@ -10,6 +10,7 @@ export default makeStyles((theme) => ({
             alignItems: 'center',
             padding: '10px 50px',
             backgroundColor: 'teal',
+            color: 'white'
 
       },
       image: {
@@ -61,5 +62,8 @@ export default makeStyles((theme) => ({
             marginTop: '20px',
             alignSelf: 'center'
       },
+      MuiIconButton: {
+            color: 'white'
+      }
 
 }));

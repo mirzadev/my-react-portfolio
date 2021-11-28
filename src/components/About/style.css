@@ -1,6 +1,7 @@
 .about-page {
       padding: 20px;
-      height: 150vh;
+      margin-bottom: 70px;
+      
     }
     
     .about-btn {
@@ -10,8 +11,17 @@
     }
     
     .about {
-      font-family: "Biryani", sans-serif;
-      font-weight: 900;
+      font-family: sans-serif; 
+      width: 100%; 
+        
     }
+
+    #about-me{
+      color: navy;
+      font-size: 40px;
+      font-weight: 1000;
+    }
+
+    
 
     

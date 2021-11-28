@@ -15,8 +15,31 @@
       font-family: sans-serif;
       font-weight: bold;
       color: white;
-      font-size: 17px;
-      
+      font-size: 17px;    
 }
+
+#cover-image{    
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: center;
+} 
+.body{
+      background: gray;
+}
+#home-profile{
+      padding: 40px;
+      text-align: center;
+
+}  
+   
+    
+  
+  
+
+
+
+
 
 

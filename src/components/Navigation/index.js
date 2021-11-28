@@ -7,6 +7,8 @@ import Resume from "./Resume.pdf"
 import useStyles from './style';
 import './style.css';
 import Profile from './images/profilepic.jpg';
+import { Avatar } from '@material-ui/core';
+import coverImage from './images/profile-pic-2.jpg'
 
 
 
@@ -33,12 +35,10 @@ function Navigation(props) {
             {
                   text: 'Phone',
                   icon: <Phone />,
-                  link: "9545135171",
+                  link: "https://docs.google.com/document/d/1fteQ2E_W3jzpTtETdvicKsLohBj_BA56MxCiG4mnhMs",
             },
 
       ]
-
-
 
       return (
             <div>
@@ -81,14 +81,14 @@ function Navigation(props) {
                         onClose={() => { setClicked(false) }}
                         onOpen={() => { }}
                         className={classes.drawer}>
-                        {/* <a href="/ProjectWithReact"
+                        <a href="/ProjectWithReact"
                               className={classes.roundedPic}>
                               <Avatar
                                     alt="Profile pic"
                                     src={Profile}
                                     className={classes.roundedPic}
                                     id="avatar" />
-                        </a> */}
+                        </a>
                         <List>
                               {InfoList.map((item, index) => {
                                     const { text, icon, onClick, link } = item;
@@ -101,16 +101,11 @@ function Navigation(props) {
                                           </a>
                                     )
                               })}
-                              <ListItem>
-                                    <ListItemIcon>
-                                          <Phone />
-                                    </ListItemIcon>
-                                    <ListItemText primary="(954)555-6666" />
-                              </ListItem>
+
                         </List>
                         <Divider />
                         <List>
-                              <Link to="/ProjectWithReact" style={{ color: "#000000", textDecoration: "none" }}>
+                              <Link to="/about" style={{ color: "#000000", textDecoration: "none" }}>
                                     <ListItem button key="Home">
                                           <ListItemIcon>
                                                 <Home />
@@ -152,10 +147,12 @@ function Navigation(props) {
                               </a>
                         </List>
                   </SwipeableDrawer>
-                  {/* <div className="my-5" >
-
-                        <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
-                  </div > */}
+                  <div className="my-5" Id="cover-image" >
+                        <img id="profile-pic-2" src={coverImage} className="my-2" alt="cover" height="250" width="250" />
+                        <h4 className="text-muted mb-0" id="home-profile">
+                              An enthusiastic, devoted, and proficient candidate having experience in the field of Quality Assurance (QA) and software development, enriched with diverse expertise in Automation, web design and software development, with the capability of working in complex, fast paced and project-based environment. I am highly interested in building my career as a leading Full Stack Developer in diverse domain of the industry.
+                        </h4>
+                  </div >
 
             </div>
 

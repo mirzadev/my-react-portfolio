@@ -1,7 +1,7 @@
 .footer {
       margin-top: auto;
       margin-bottom: auto;
-      background-color: #f5f5f511;
+      background-color: white;     
       width: auto;
       padding: 0 15px;
     }
@@ -9,5 +9,24 @@
     .footer > .container {
       padding-right: 15px;
       padding-left: 15px;
+    }
+
+    #text-muted, .text-center{
+      font-size: 18px;
+      font-weight: bold;
+      color: rgb(228, 26, 26);
+    }
+    .footer.footer.py-3{
+      background: teal
+      
+      
+    }
+    .footer-text{
+      color:white
+    }
+    #footer-items{
+      position: fixed;
+        Width: 100%;
+        bottom: 0;
     }
     

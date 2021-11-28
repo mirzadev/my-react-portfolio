@@ -18,8 +18,8 @@ function Project() {
       return (
             <section id="project">
                   <div className="container">
-                        <div className="row justify-content-center">
-                              <h2 className="text-center mt-5 project">MY ALL PROJECTS</h2>
+                        <div className="row justify-content-center" id="project-container">
+                              <h2 className="text-center mt-5 project" id="project-head">MY ALL PROJECTS</h2>
                               <div className="col-lg-6 col-sm-12 mb-2 px-5 py-5">
                                     <div className="card">
                                           <img src={CuckoosLibrary} className="card-img-top" alt="CuckoosLibrary" />

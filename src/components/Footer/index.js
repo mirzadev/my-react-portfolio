@@ -3,9 +3,12 @@ import './style.css';
 
 function Footer() {
       return (
-            <footer className="footer py-3">
+            <footer className="footer py-3" id="footer-items">
                   <div className="container text-center">
-                        <span className="text-muted">&copy; Mirza Abdul Awal, 2021, All Rights Reserved.</span>
+
+                        <h5 className="footer-text">
+                              &copy; Mirza Abdul Awal, 2021, All Rights Reserved.
+                        </h5>
                   </div>
             </footer>
       )

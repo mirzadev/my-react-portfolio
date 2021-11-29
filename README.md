@@ -39,7 +39,7 @@
 
 ## Overview Links
 - [Application Deployed in Netlify](https://epic-goodall-ed7a83.netlify.app/)
-- [Application walkthrough](https://watch.screencastify.com/v/Bw1gMqGnzWJTCQTXVW0E)
+- [Application walkthrough](https://watch.screencastify.com/v/gkxsoA5IDHKxVdZ4F8EX)
 - [Application in github](https://mirzadev.github.io/my-react-portfolio/)
 
 

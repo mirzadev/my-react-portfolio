@@ -32,7 +32,7 @@
 - My Previous Projects / Challenges.
 ![Projects / Challenges](./images/Project-Component.JPG)
 
-- Mobile Responsive.
+- Mobile Responsive
 ![Mobile Responsive](./images/mobile-responsive.JPG)
 
 ## Overview Links

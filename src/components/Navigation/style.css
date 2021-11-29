@@ -25,14 +25,24 @@
   justify-content: space-between;
   position: center;
 } 
-.body{
-      background: gray;
-}
+
 #home-profile{
       padding: 40px;
       text-align: center;
 
-}  
+} 
+
+@media screen and (max-width: 768px) {
+      #component-item, #brandName, #cover-image, #home-profile, #navbar-items  {       
+            position: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            display: table;
+            text-align: center;
+        
+      }
+    
+    }   
    
     
   

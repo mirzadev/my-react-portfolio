@@ -59,7 +59,7 @@ function Navigation(props) {
                         <div>
                         </div>
                         <Toolbar className={classes.toolbar} >
-                              <div className={classes.profile}>
+                              <div className={classes.profile} id="navbar-items">
                                     <Typography className={classes.heading} align="left">
                                           <Button className={classes.button} id="component-item" component={Link} to="/about">About</Button>
                                     </Typography>

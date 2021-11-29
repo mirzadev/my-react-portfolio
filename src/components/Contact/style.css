@@ -15,4 +15,14 @@
   margin-top: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .contact, #contact, #connect-contact {
+        width: 100%;
+        margin: 0 auto;
+        display: table;
+        text-align: center;
+  }
+
+}
+
     

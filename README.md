@@ -30,8 +30,11 @@
 
 ![Login functionality](./images/Hamburger-Navbar.JPG)
 
-- Register Option of the Application.
-![Register option](./images/Project-Component.JPG)
+- My Previous Projects / Challenges.
+![Projects / Challenges](./images/Project-Component.JPG)
+
+- Mobile Responsive.
+![Mobile Responsive](./images/mobile-responsive.JPG)
 
 ## Overview Links
 - [Application Deployed in Netlify](https://epic-goodall-ed7a83.netlify.app/)

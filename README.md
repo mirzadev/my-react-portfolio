@@ -27,7 +27,6 @@
 ![Picture of Contact Component](./images/Contact-Compoment.JPG)
 
 - Picture of the Home Page with Humbergar Navbar
-
 ![Login functionality](./images/Hamburger-Navbar.JPG)
 
 - My Previous Projects / Challenges.
